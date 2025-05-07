@@ -5,29 +5,37 @@
     "manifest_version": 3,
     "theme": {
       "colors": {
-        "frame": [3, 7, 22],             /* #030716 - very dark blue/black main UI */
-        "frame_inactive": [4, 8, 24],    /* Only very slightly lighter when inactive */
-        "toolbar": [3, 7, 22],           /* #030716 - same as frame */
-        "toolbar_text": [255, 255, 255], /* White text in toolbar */
-        "tab_text": [255, 255, 255],     /* #FFFFFF - white text */
-        "tab_background_text": [200, 200, 220], /* Light gray for inactive text */
-        "bookmark_text": [255, 255, 255], /* #FFFFFF - white text */
-        "ntp_background": [3, 7, 22],    /* #030716 - new tab page background */
-        "ntp_text": [255, 255, 255],     /* #FFFFFF - new tab page text */
-        "button_background": [3, 7, 22], /* #030716 - same as frame/tab bar */
-        "toolbar_button_icon": [255, 255, 255], /* #FFFFFF - white icons */
-        "omnibox_background": [10, 15, 30], /* Slightly lighter than main background */
-        "omnibox_text": [255, 255, 255]  /* #FFFFFF - address bar text */
+        "frame": [3, 7, 22],
+        "frame_inactive": [4, 8, 24],
+        "toolbar": [3, 7, 22],
+        "toolbar_text": [255, 255, 255],
+        "tab_text": [255, 255, 255],
+        "background_tab": [3, 7, 22],
+        "background_tab_inactive": [4, 8, 24],
+        "bookmark_text": [255, 255, 255],
+        "ntp_background": [3, 7, 22],
+        "ntp_text": [255, 255, 255],
+        "button_background": [3, 7, 22],
+        "toolbar_button_icon": [255, 255, 255],
+        "omnibox_background": [10, 15, 30],
+        "omnibox_text": [255, 255, 255],
+        "tab_background_text": [255, 255, 255],
+        "tab_background_text_inactive": [200, 200, 210],
+        "ntp_header": [3, 7, 22],
+        "background_tab_text": [179, 182, 196],
+        "background_tab_text_inactive": [150, 155, 170],
+        "theme_toolbar": [3, 7, 22],
+        "tab_background": [24, 35, 71],
+        "bookmark_bar": [3, 7, 22],
+        "NTP_section": [10, 15, 30]
       },
       "tints": {
-        "buttons": [0.98, 0.98, 0.98],   /* Very slight lightening effect on hover */
-        "frame_inactive": [1.0, 1.0, 1.0], /* No tint when inactive (using explicit color above) */
-        "frame_incognito": [0.9, 0.65, 0.9], /* Slight purple tint for incognito mode */
+        "buttons": [0.98, 0.98, 0.98],
+        "frame_inactive": [1.0, 1.0, 1.0],
+        "frame_incognito": [0.9, 0.65, 0.9],
         "frame_incognito_inactive": [0.9, 0.65, 0.9]
       },
-      "properties": {
-        "ntp_background_alignment": "bottom",
-        "ntp_background_repeat": "no-repeat"
-      }
+      "properties": {}
     }
   }
+  
